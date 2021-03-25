@@ -1,0 +1,150 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:688px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u152_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:600px;
+  height:420px;
+}
+#u152 {
+  border-width:0px;
+  position:absolute;
+  left:88px;
+  top:40px;
+  width:600px;
+  height:420px;
+  opacity:0.7;
+}
+#u152_text {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:0px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u153 {
+  border-width:0px;
+  position:absolute;
+  left:139px;
+  top:61px;
+  width:140px;
+  height:25px;
+}
+#u153_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:140px;
+  height:25px;
+  font-family:'华文行楷';
+  font-weight:400;
+  font-style:normal;
+  font-size:28px;
+  text-decoration:none;
+  color:#333333;
+  text-align:center;
+}
+#u154 {
+  border-width:0px;
+  position:absolute;
+  left:139px;
+  top:275px;
+  width:140px;
+  height:25px;
+}
+#u154_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:140px;
+  height:25px;
+  font-family:'华文行楷';
+  font-weight:400;
+  font-style:normal;
+  font-size:28px;
+  text-decoration:none;
+  color:#333333;
+  text-align:center;
+}
+#u155 {
+  border-width:0px;
+  position:absolute;
+  left:139px;
+  top:96px;
+  width:283px;
+  height:111px;
+}
+#u155_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:283px;
+  height:111px;
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+  text-align:left;
+}
+#u156 {
+  border-width:0px;
+  position:absolute;
+  left:139px;
+  top:317px;
+  width:283px;
+  height:111px;
+}
+#u156_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:283px;
+  height:111px;
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+  text-align:left;
+}
+#u157 {
+  border-width:0px;
+  position:absolute;
+  left:548px;
+  top:429px;
+  width:140px;
+  height:25px;
+}
+#u157_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:140px;
+  height:25px;
+  font-family:'华文行楷';
+  font-weight:400;
+  font-style:normal;
+  font-size:28px;
+  text-decoration:none;
+  color:#333333;
+  text-align:center;
+}
