@@ -1,0 +1,18 @@
+{
+	hospitalOrderId:"",
+	hospitalOrderName:"",
+	hospitalOrderCreateTime:"",
+	hospitalOrderEndTime:"",
+	hosptialOrderAttache:"",
+	hosptialOrderAddress:"",
+	hospitalOrderSendMenthod:"",
+	hospitalOrderGoodsCounts:"",
+	hospitalOrderUserTel:"",
+	hospitalOrderBusinessTel:"",
+	hospitalOrderLogisticsInfo:"",
+	hospitalOrderSatatus:"",
+	reference:
+	[
+
+	]
+}

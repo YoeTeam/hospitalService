@@ -1,0 +1,21 @@
+{
+	hospitalUserId:"",
+	hospitalUserNameId:"",
+	hospitalUserName:"",
+	hospitalUserAge:"",
+	hospitalUserGender:"",
+	hospitalUserTel:"",
+	hospitalUserAddress:"",
+	hospitalUserOrder:"",
+	hospitalUser:"",
+	hospitalPassword:"",
+	hospitalTest:"",
+	reference:
+	[
+
+		{
+		
+		}
+	]
+
+}

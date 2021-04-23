@@ -1,0 +1,14 @@
+{
+	hospitalGoodsId:"",
+	hospitalGoodsName:"",
+	hospitalGoodsInfo:"",
+	hospitalGoodsClassify:"",
+	hospitalGoodsMechanName:"",
+	hospitalGoodsCounts:"",
+	hospitalGoodsSellCount:"",
+	hospitalGoodsPrice:"",
+	reference:
+	[
+
+	]
+}

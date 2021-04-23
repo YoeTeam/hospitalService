@@ -1,0 +1,9 @@
+  {
+     comNewsId:"",	
+     communityNews:"",	   
+     comNewsTitle:"",
+     comNewsCountent:"",
+     comNewsTime:"",
+     comNewsClassify:"",
+     comNewsPress:""	  
+  }
