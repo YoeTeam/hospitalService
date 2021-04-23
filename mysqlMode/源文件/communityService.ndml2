@@ -1,0 +1,896 @@
+{
+  "paper": {
+    "name": "A4",
+    "leftMargin": 0.5,
+    "rightMargin": 0.5,
+    "topMargin": 0.5,
+    "bottomMargin": 0.5,
+    "isPortriat": true
+  },
+  "modelVersion": 2.01,
+  "defaultSchema": "Default",
+  "server": {
+    "objectType": "Server_LOGICAL",
+    "name": "Default",
+    "schemas": [
+      {
+        "objectType": "Schema_LOGICAL",
+        "name": "Default",
+        "tables": [
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "communityNews",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "communityNews",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "communityNews"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comNewsID",
+                "type": "INTEGER",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comNewsID"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comNewsTitle",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comNewsTitle"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comNewsContent",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comNewsContent"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comNewsTime",
+                "type": "DATE",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comNewsTime"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comNewsAuthor",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comNewsAuthor"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comNewsClassify",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comNewsClassify"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comNewspress",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "出版社",
+                "oldName": "comNewspress"
+              }
+            ],
+            "foreignKeys": [],
+            "indexes": [],
+            "uniques": []
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "communityUser",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comUserID",
+                "type": "INTEGER",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comUserID"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comUserNewsID",
+                "type": "INTEGER",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comUserNewsID"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comUserName",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comUserName"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comUserAge",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comUserAge"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comUserGender",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comUserGender"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comUserTel",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comUserTel"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comUserAddress",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comUserAddress"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comUserOrder",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comUserOrder"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comUser",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comUser"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comPassword",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comPassword"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comUserObject",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comUserObject"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comUserClassfy",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comUserClassfy"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comUserGoods",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comUserGoods"
+              }
+            ],
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_commmunityUser_communityNews_1",
+                "fields": [
+                  "comUserID"
+                ],
+                "referencedSchema": "Default",
+                "referencedTable": "communityNews",
+                "referencedFields": [
+                  "communityNews"
+                ],
+                "sourceCardinality": "OneOrManyRelationship",
+                "targetCardinality": "OneOrManyRelationship",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "comUserID"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "communityGoods",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comGoodsId",
+                "type": "INTEGER",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comGoodsId"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comGoodsName",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comGoodsName"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comGoodsInfo",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "商品信息",
+                "oldName": "comGoodsInfo"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comGoodsClassify",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comGoodsClassify"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comGoodsMerchantName",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "售卖商品的人名字",
+                "oldName": "comGoodsMerchantName"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comGoodsCounts",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "库存",
+                "oldName": "comGoodsCounts"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comGoodsSellCount",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "已经卖出多少",
+                "oldName": "comGoodsSellCount"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comGoodsPrice",
+                "type": "",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comGoodsPrice"
+              }
+            ],
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_communityGoods_communityOrders_1",
+                "fields": [
+                  "comGoodsId"
+                ],
+                "referencedSchema": "Default",
+                "referencedTable": "communityOrders",
+                "referencedFields": [
+                  "comOrderId"
+                ],
+                "sourceCardinality": "OneOrManyRelationship",
+                "targetCardinality": "OneAndOnlyOneRelationship",
+                "comment": "",
+                "oldName": ""
+              },
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_communityGoods_commmunityUser_1",
+                "fields": [
+                  "comGoodsId"
+                ],
+                "referencedSchema": "Default",
+                "referencedTable": "communityUser",
+                "referencedFields": [
+                  "comUserID"
+                ],
+                "sourceCardinality": "ZeroOrManyRelationship",
+                "targetCardinality": "ZeroOrManyRelationship",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "comGoodsId"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "communityOrders",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comOrderId",
+                "type": "INTEGER",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "订单号",
+                "oldName": "comOrderId"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comOrderName",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comOrderName"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comOrderCreateTime",
+                "type": "DATE",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comOrderCreateTime"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comOrderEndTime",
+                "type": "DATE",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comOrderEndTime"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comOrderAttache",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "谁创建的订单（订单的归属）",
+                "oldName": "comOrderAttache"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comOrderAddress",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comOrderAddress"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comOrderSentMethod",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "配送方式",
+                "oldName": "comOrderSentMethod"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comOrderGoodsCounts",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comOrderGoodsCounts"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comOrderUserTel",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comOrderUserTel"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comOrderBusinessTel",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comOrderBusinessTel"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "ComOrderLogisticsInfo",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "物流信息",
+                "oldName": "ComOrderLogisticsInfo"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "comOrderStatus",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "comOrderStatus"
+              }
+            ],
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_communityOrders_commmunityUser_1",
+                "fields": [
+                  "comOrderId"
+                ],
+                "referencedSchema": "Default",
+                "referencedTable": "communityUser",
+                "referencedFields": [
+                  "comUserOrder"
+                ],
+                "sourceCardinality": "OneAndOnlyOneRelationship",
+                "targetCardinality": "OneOrManyRelationship",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "comOrderId"
+              ],
+              "oldName": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "name": "Diagram 1",
+      "paperWidth": 1,
+      "paperHeight": 1,
+      "tableFont": "Arial Unicode MS",
+      "tableFontSize": 14,
+      "isBalckWhite": false,
+      "showDBSchemaName": false,
+      "showViewRelations": true,
+      "notation": "default",
+      "showFieldComment": false,
+      "showTableComment": false,
+      "shapes": [
+        {
+          "type": "table",
+          "schemaName": "Default",
+          "tableName": "communityUser",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 320,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "Default",
+          "tableName": "communityNews",
+          "x": 330,
+          "y": 0,
+          "width": 200,
+          "height": 220,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "Default",
+          "tableName": "communityOrders",
+          "x": 200,
+          "y": 440,
+          "width": 200,
+          "height": 300,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "Default",
+          "tableName": "communityGoods",
+          "x": 490,
+          "y": 220,
+          "width": 200,
+          "height": 220,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        }
+      ],
+      "layers": [],
+      "relations": [
+        {
+          "name": "fk_commmunityUser_communityNews_1",
+          "sourceTableName": "communityUser",
+          "sourceSchemaName": "Default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 215,
+              "y": 100
+            },
+            {
+              "x": 255,
+              "y": 100
+            },
+            {
+              "x": 255,
+              "y": 120
+            },
+            {
+              "x": 315,
+              "y": 120
+            }
+          ],
+          "label": {
+            "x": 205,
+            "y": 52,
+            "width": 258,
+            "height": 40,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_communityOrders_commmunityUser_1",
+          "sourceTableName": "communityOrders",
+          "sourceSchemaName": "Default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 185,
+              "y": 540
+            },
+            {
+              "x": 100,
+              "y": 540
+            },
+            {
+              "x": 100,
+              "y": 335
+            }
+          ],
+          "label": {
+            "x": 200,
+            "y": 492,
+            "width": 267,
+            "height": 40,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_communityGoods_communityOrders_1",
+          "sourceTableName": "communityGoods",
+          "sourceSchemaName": "Default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 475,
+              "y": 320
+            },
+            {
+              "x": 410,
+              "y": 320
+            },
+            {
+              "x": 410,
+              "y": 580
+            },
+            {
+              "x": 415,
+              "y": 580
+            }
+          ],
+          "label": {
+            "x": 310,
+            "y": 272,
+            "width": 268,
+            "height": 40,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_communityGoods_commmunityUser_1",
+          "sourceTableName": "communityGoods",
+          "sourceSchemaName": "Default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 475,
+              "y": 330
+            },
+            {
+              "x": 110,
+              "y": 330
+            },
+            {
+              "x": 110,
+              "y": 335
+            }
+          ],
+          "label": {
+            "x": 310,
+            "y": 282,
+            "width": 265,
+            "height": 40,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        }
+      ],
+      "viewRelations": []
+    }
+  ]
+}

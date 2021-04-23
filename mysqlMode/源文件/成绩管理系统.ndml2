@@ -1,0 +1,1593 @@
+{
+  "paper": {
+    "name": "A4",
+    "leftMargin": 0.5,
+    "rightMargin": 0.5,
+    "topMargin": 0.5,
+    "bottomMargin": 0.5,
+    "isPortriat": true
+  },
+  "modelVersion": 2.01,
+  "defaultSchema": "Default",
+  "server": {
+    "objectType": "Server_LOGICAL",
+    "name": "Default",
+    "schemas": [
+      {
+        "objectType": "Schema_LOGICAL",
+        "name": "Default",
+        "tables": [
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "Teacher",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "teacherId",
+                "type": "INTEGER",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "teacherId"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "teacherName",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "teacherName"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "teacherGender",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "teacherGender"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "teacherBirth",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "teacherBirth"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "teacherCourse",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "teacherCourse"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "teacherSchool",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "teacherSchool"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "teacherEntryYear",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "入职年份",
+                "oldName": "teacherEntryYear"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "teacherResume",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "简历",
+                "oldName": "teacherResume"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "teacherAddress",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "身份证",
+                "oldName": "teacherAddress"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "teacherId-card",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "teacherId-card"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "teacherPositon",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "担任职务",
+                "oldName": "teacherPositon"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "teacherTitle",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "职称",
+                "oldName": "teacherTitle"
+              }
+            ],
+            "foreignKeys": [],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "teacherId"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "Student",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "studentId",
+                "type": "INTEGER",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "学号",
+                "oldName": "studentId"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "studentName",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "studentName"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "studentGender",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "studentGender"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "studentBrith",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "studentBrith"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "studentCourse",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "studentCourse"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "studentClass",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "studentClass"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "studentSchool",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "studentSchool"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "studentCredit",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "studentCredit"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "studentEntranceYear",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "入学年份\r\n\r\n\r\n\r\n\r\n\r\n",
+                "oldName": "studentEntranceYear"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "studentGraduateYear",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "毕业年份",
+                "oldName": "studentGraduateYear"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "studentPassCourse",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "studentPassCourse"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "studentUnpassCourse",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "未通过科目",
+                "oldName": "studentUnpassCourse"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "studentAddress",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "studentAddress"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "studentAchievement",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "学生的荣誉",
+                "oldName": "studentAchievement"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "studentViolation",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "学生违规记录",
+                "oldName": "studentViolation"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "studentId-card",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "studentId-card"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "studentTeacher",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "studentTeacher"
+              }
+            ],
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_Student_Class_1",
+                "fields": [
+                  "studentId"
+                ],
+                "referencedSchema": "Default",
+                "referencedTable": "Class",
+                "referencedFields": [
+                  "classId"
+                ],
+                "sourceCardinality": "ManyRelationship",
+                "targetCardinality": "OneAndOnlyOneRelationship",
+                "comment": "",
+                "oldName": ""
+              },
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_Student_Grade_1",
+                "fields": [
+                  "studentId"
+                ],
+                "referencedSchema": "Default",
+                "referencedTable": "Grade",
+                "referencedFields": [
+                  "gradeId"
+                ],
+                "sourceCardinality": "ManyRelationship",
+                "targetCardinality": "ManyRelationship",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "studentId"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "Course",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "courseID",
+                "type": "INTEGER",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "courseID"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "courseName",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "courseName"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "courseBook",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "courseBook"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "courseCredit",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "courseCredit"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "courseClassify",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "courseClassify"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "courseTeachPlace",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "开设地点",
+                "oldName": "courseTeachPlace"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "courseScore",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "courseScore"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "courseStartTime",
+                "type": "DATE",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "courseStartTime"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "courseEndTime",
+                "type": "DATE",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "courseEndTime"
+              }
+            ],
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_Course_Class_1",
+                "fields": [
+                  "courseID"
+                ],
+                "referencedSchema": "Default",
+                "referencedTable": "Class",
+                "referencedFields": [
+                  "classId"
+                ],
+                "sourceCardinality": "ZeroOrManyRelationship",
+                "targetCardinality": "ZeroOrManyRelationship",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "courseID"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "School",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "schoolId",
+                "type": "INTEGER",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "schoolId"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "schoolName",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "schoolName"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "schoolAddress",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "schoolAddress"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "schoolTel",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "schoolTel"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "schoolNetAddress",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "schoolNetAddress"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_School_Student_1",
+                "fields": [
+                  "schoolId"
+                ],
+                "referencedSchema": "Default",
+                "referencedTable": "Student",
+                "referencedFields": [
+                  "studentId"
+                ],
+                "sourceCardinality": "ManyRelationship",
+                "targetCardinality": "ManyRelationship",
+                "comment": "",
+                "oldName": ""
+              },
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_School_Teacher_1",
+                "fields": [
+                  "schoolId"
+                ],
+                "referencedSchema": "Default",
+                "referencedTable": "Teacher",
+                "referencedFields": [
+                  "teacherId"
+                ],
+                "sourceCardinality": "OneOrManyRelationship",
+                "targetCardinality": "ManyRelationship",
+                "comment": "",
+                "oldName": ""
+              },
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_School_Class_1",
+                "fields": [
+                  "schoolId"
+                ],
+                "referencedSchema": "Default",
+                "referencedTable": "Class",
+                "referencedFields": [
+                  "classId"
+                ],
+                "sourceCardinality": "OneAndOnlyOneRelationship",
+                "targetCardinality": "OneOrManyRelationship",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "schoolId"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "Class",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "classId",
+                "type": "INTEGER",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "classId"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "className",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "className"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "classMonitor",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "classMonitor"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "classLeader",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "classLeader"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "classCount",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "classCount"
+              }
+            ],
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_Class_Teacher_1",
+                "fields": [
+                  "classId"
+                ],
+                "referencedSchema": "Default",
+                "referencedTable": "Teacher",
+                "referencedFields": [
+                  "teacherId"
+                ],
+                "sourceCardinality": "ManyRelationship",
+                "targetCardinality": "ManyRelationship",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "classId"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "Grade",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "gradeId",
+                "type": "INTEGER",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "gradeId"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "gradeStudentId",
+                "type": "INTEGER",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "gradeStudentId"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "gradeCourseId",
+                "type": "INTEGER",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "gradeCourseId"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "gradeTestId",
+                "type": "INTEGER",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "gradeTestId"
+              }
+            ],
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_Grade_Course_1",
+                "fields": [
+                  "gradeId"
+                ],
+                "referencedSchema": "Default",
+                "referencedTable": "Course",
+                "referencedFields": [
+                  "courseID"
+                ],
+                "sourceCardinality": "ManyRelationship",
+                "targetCardinality": "OneAndOnlyOneRelationship",
+                "comment": "",
+                "oldName": ""
+              },
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_Grade_Test_1",
+                "fields": [
+                  "gradeId"
+                ],
+                "referencedSchema": "Default",
+                "referencedTable": "Test",
+                "referencedFields": [
+                  "testId"
+                ],
+                "sourceCardinality": "OneAndOnlyOneRelationship",
+                "targetCardinality": "OneAndOnlyOneRelationship",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "gradeId"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "Test",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "testId",
+                "type": "INTEGER",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "testId"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "studentId",
+                "type": "INTEGER",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "studentId"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "testName",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "testName"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "testClassify",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "testClassify"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "testStartTime",
+                "type": "DATE",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "testStartTime"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "testeEndTime",
+                "type": "DATE",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "testeEndTime"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "testGrade",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "testGrade"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "testPlace",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "testPlace"
+              }
+            ],
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_Test_Course_1",
+                "fields": [
+                  "testId"
+                ],
+                "referencedSchema": "Default",
+                "referencedTable": "Course",
+                "referencedFields": [
+                  "courseID"
+                ],
+                "sourceCardinality": "ZeroOrManyRelationship",
+                "targetCardinality": "OneAndOnlyOneRelationship",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "testId",
+                "studentId"
+              ],
+              "oldName": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "name": "Diagram 1",
+      "paperWidth": 1,
+      "paperHeight": 1,
+      "tableFont": "Arial Unicode MS",
+      "tableFontSize": 14,
+      "isBalckWhite": false,
+      "showDBSchemaName": false,
+      "showViewRelations": true,
+      "notation": "default",
+      "showFieldComment": false,
+      "showTableComment": false,
+      "shapes": [
+        {
+          "type": "table",
+          "schemaName": "Default",
+          "tableName": "Student",
+          "x": 0,
+          "y": 20,
+          "width": 170,
+          "height": 400,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "Default",
+          "tableName": "Teacher",
+          "x": 670,
+          "y": 130,
+          "width": 200,
+          "height": 300,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "Default",
+          "tableName": "Course",
+          "x": 210,
+          "y": 360,
+          "width": 200,
+          "height": 240,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "Default",
+          "tableName": "School",
+          "x": 160,
+          "y": 810,
+          "width": 200,
+          "height": 200,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "Default",
+          "tableName": "Class",
+          "x": 270,
+          "y": 0,
+          "width": 200,
+          "height": 200,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "Default",
+          "tableName": "Test",
+          "x": 460,
+          "y": 420,
+          "width": 200,
+          "height": 200,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "Default",
+          "tableName": "Grade",
+          "x": 450,
+          "y": 730,
+          "width": 200,
+          "height": 200,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        }
+      ],
+      "layers": [],
+      "relations": [
+        {
+          "name": "fk_Student_Class_1",
+          "sourceTableName": "Student",
+          "sourceSchemaName": "Default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 185,
+              "y": 220
+            },
+            {
+              "x": 235,
+              "y": 220
+            },
+            {
+              "x": 235,
+              "y": 100
+            },
+            {
+              "x": 255,
+              "y": 100
+            }
+          ],
+          "label": {
+            "x": 175,
+            "y": 172,
+            "width": 132,
+            "height": 40,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_Class_Teacher_1",
+          "sourceTableName": "Class",
+          "sourceSchemaName": "Default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 485,
+              "y": 100
+            },
+            {
+              "x": 530,
+              "y": 100
+            },
+            {
+              "x": 530,
+              "y": 280
+            },
+            {
+              "x": 655,
+              "y": 280
+            }
+          ],
+          "label": {
+            "x": 475,
+            "y": 52,
+            "width": 136,
+            "height": 40,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_Course_Class_1",
+          "sourceTableName": "Course",
+          "sourceSchemaName": "Default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 310,
+              "y": 345
+            },
+            {
+              "x": 310,
+              "y": 235
+            },
+            {
+              "x": 370,
+              "y": 235
+            },
+            {
+              "x": 370,
+              "y": 215
+            }
+          ],
+          "label": {
+            "x": 318,
+            "y": 315,
+            "width": 129,
+            "height": 40,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_Test_Course_1",
+          "sourceTableName": "Test",
+          "sourceSchemaName": "Default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 445,
+              "y": 440
+            },
+            {
+              "x": 450,
+              "y": 440
+            },
+            {
+              "x": 450,
+              "y": 440
+            },
+            {
+              "x": 425,
+              "y": 440
+            }
+          ],
+          "label": {
+            "x": 333,
+            "y": 392,
+            "width": 122,
+            "height": 40,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_School_Student_1",
+          "sourceTableName": "School",
+          "sourceSchemaName": "Default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 145,
+              "y": 910
+            },
+            {
+              "x": 90,
+              "y": 910
+            },
+            {
+              "x": 90,
+              "y": 435
+            }
+          ],
+          "label": {
+            "x": 30,
+            "y": 862,
+            "width": 140,
+            "height": 40,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_School_Teacher_1",
+          "sourceTableName": "School",
+          "sourceSchemaName": "Default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 375,
+              "y": 970
+            },
+            {
+              "x": 770,
+              "y": 970
+            },
+            {
+              "x": 770,
+              "y": 445
+            }
+          ],
+          "label": {
+            "x": 365,
+            "y": 922,
+            "width": 144,
+            "height": 40,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_School_Class_1",
+          "sourceTableName": "School",
+          "sourceSchemaName": "Default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 220,
+              "y": 795
+            },
+            {
+              "x": 220,
+              "y": 310
+            },
+            {
+              "x": 300,
+              "y": 310
+            },
+            {
+              "x": 300,
+              "y": 215
+            }
+          ],
+          "label": {
+            "x": 228,
+            "y": 765,
+            "width": 126,
+            "height": 40,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_Grade_Course_1",
+          "sourceTableName": "Grade",
+          "sourceSchemaName": "Default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 435,
+              "y": 830
+            },
+            {
+              "x": 310,
+              "y": 830
+            },
+            {
+              "x": 310,
+              "y": 615
+            }
+          ],
+          "label": {
+            "x": 311,
+            "y": 782,
+            "width": 134,
+            "height": 40,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_Grade_Test_1",
+          "sourceTableName": "Grade",
+          "sourceSchemaName": "Default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 550,
+              "y": 715
+            },
+            {
+              "x": 550,
+              "y": 710
+            },
+            {
+              "x": 560,
+              "y": 710
+            },
+            {
+              "x": 560,
+              "y": 635
+            }
+          ],
+          "label": {
+            "x": 558,
+            "y": 685,
+            "width": 116,
+            "height": 40,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_Student_Grade_1",
+          "sourceTableName": "Student",
+          "sourceSchemaName": "Default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 130,
+              "y": 435
+            },
+            {
+              "x": 130,
+              "y": 800
+            },
+            {
+              "x": 435,
+              "y": 800
+            }
+          ],
+          "label": {
+            "x": 132,
+            "y": 375,
+            "width": 137,
+            "height": 40,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        }
+      ],
+      "viewRelations": []
+    }
+  ]
+}
