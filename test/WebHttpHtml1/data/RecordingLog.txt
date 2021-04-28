@@ -1,0 +1,653 @@
+[API Trapper      (2df0:22fc)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (2df0:3700)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2df0:3700)] Load Network Traffic Analyzers:
+[Network Analyzer (2df0:3700)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2df0:3700)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2df0:3700)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2df0:3700)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2df0:3700)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2df0:3700)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2df0:3700)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2df0:3700)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2df0:2208)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[API Trapper      (162c:2158)] Recording in 64-bit mode: C:\WINDOWS\system32\IESettingSync.exe
+[Network Analyzer (2df0:3a88)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:11fc)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:11fc)] Request Connection: Remote Server @ 104.84.215.219:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (2df0:3a88)] Request Connection: Remote Server @ 104.84.215.219:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (2df0:20a0)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2df0:1194)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2df0:19d4)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3700)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3700)] Request Connection: Remote Server @ 39.105.6.138:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (2df0:19d4)] Request Connection: Remote Server @ 39.105.6.138:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (2df0: d2c)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2df0:2f80)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2df0:3634)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3634)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (2df0:2208)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCE2sABplxS2KOeMlNPQAAAAAGmXE%3D"   
+[Network Analyzer (2df0:2208)]   (Sid:  5) Client -> Server @ : 236 bytes (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  5) Server -> Client : 531 bytes  (Service=HTTP)
+[Network Analyzer (2df0:3700)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3700)] Request Connection: Remote Server @ 112.19.1.98:80   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (2df0:2208)] "GET /MFEwTzBNMEswSTAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEAecUv0MS5nGyVVixV8Ea30%3D"   
+[Network Analyzer (2df0:2208)]   (Sid:  6) Client -> Server @ : 231 bytes (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  6) Server -> Client : 1084 bytes  (Service=HTTP)
+[Network Analyzer (2df0:33c0)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:33c0)] Request Connection: Remote Server @ 23.32.237.73:80   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (2df0:2208)] "GET /pki/mscorp/crl/Microsoft%20RSA%20TLS%20CA%2001.crl"   
+[Network Analyzer (2df0:2208)]   (Sid:  7) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 5760 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 1440 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 1440 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 2880 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 2880 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 2880 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 2880 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 2880 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 2880 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 2880 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 78 bytes  (Service=HTTP)
+[Web Request      (2df0:2208)] "GET /pki/mscorp/crl/Microsoft%20RSA%20TLS%20CA%2001.crl"   
+[Network Analyzer (2df0:2208)]   (Sid:  7) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 4320 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 4320 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 2880 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 2880 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 2880 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 2880 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 2880 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 2880 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 2880 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  7) Server -> Client : 78 bytes  (Service=HTTP)
+[Net An. Error    (2df0:20a0)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:1194)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2208)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (2df0:33f4)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:33f4)] Request Connection: Remote Server @ 104.84.215.219:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (2df0:3b60)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2df0:3b60)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:AES256-GCM-SHA384)
+[Web Request      (2df0:2208)] "GET /fwlink/?LinkId=251136"   
+[Network Analyzer (2df0:2208)]   (Sid:  8) Client -> Server @ : 259 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  8) Server -> Client : 499 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:11fc)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:33f4)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:11fc)] Request Connection: Remote Server @ 204.79.197.200:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (2df0:33f4)] Request Connection: Remote Server @ 204.79.197.200:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (2df0:3174)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (2df0:2208)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCE2sADG3XHyOTcm9UzFQAAAAMbdc%3D"   
+[Network Analyzer (2df0:2208)]   (Sid:  5) Client -> Server @ : 236 bytes (Service=HTTP)
+[Network Analyzer (2df0:23e8)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2df0:2208)]   (Sid:  5) Server -> Client : 534 bytes  (Service=HTTP)
+[Web Request      (2df0:2208)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCE2sADG3XHyOTcm9UzFQAAAAMbdc%3D"   
+[Network Analyzer (2df0:2208)]   (Sid:  5) Client -> Server @ : 279 bytes (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  5) Server -> Client : 538 bytes  (Service=HTTP)
+[Net An. Error    (2df0:3174)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:23e8)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:33f4)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2208)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (2df0:33f4)] Request Connection: Remote Server @ 204.79.197.200:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (2df0: 97c)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2df0: 97c)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:AES256-GCM-SHA384)
+[Net An. Error    (2df0: d2c)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:2f80)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2208)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid:  4) Connection Terminated (by Client)
+[Web Request      (2df0:2208)] "GET /ie/known_providers_download_v1.xml"   
+[Network Analyzer (2df0:2208)]   (Sid: 11) Client -> Server @ : 278 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2df0:3a18)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3a18)] Request Connection: Remote Server @ 39.105.6.138:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 2742 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 1324 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 11) Server -> Client : 1280 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:158c)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2df0:158c)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:AES256-GCM-SHA384)
+[Network Analyzer (2df0:3634)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Web Request      (2df0:2208)] "GET /qq_37674858/article/details/79755143"   
+[Network Analyzer (2df0:2208)]   (Sid: 12) Client -> Server @ : 316 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2df0:3634)] Request Connection: Remote Server @ 117.18.237.29:80   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      (2df0:2208)] "GET /GeoTrustCNRSACAG1.crl"   
+[Network Analyzer (2df0:2208)]   (Sid: 13) Client -> Server @ : 139 bytes (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 13) Server -> Client : 1440 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 13) Server -> Client : 1440 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 13) Server -> Client : 2880 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 13) Server -> Client : 1440 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 12) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 12) Server -> Client : 7147 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 13) Server -> Client : 4320 bytes  (Service=HTTP)
+[Network Analyzer (2df0:3a88)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2910)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2910)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (2df0:2208)] "GET /pki/mscorp/crl/Microsoft%20RSA%20TLS%20CA%2001.crl"   
+[Network Analyzer (2df0:2208)]   (Sid: 14) Client -> Server @ : 170 bytes (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 14) Server -> Client : 8328 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 14) Server -> Client : 4161 bytes  (Service=HTTP)
+[Network Analyzer (2df0:3700)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:1c08)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:33f4)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:19d4)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: 3fc)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: af0)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:33c0)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2ec0)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:1c08)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (2df0:33f4)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (2df0:3700)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (2df0:11fc)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: 6f8)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3a18)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3634)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:376c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: 3fc)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (2df0:33c0)] Request Connection: Remote Server @ 183.220.151.49:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (2df0:2ec0)] Request Connection: Remote Server @ 183.220.151.49:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (2df0:19d4)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (2df0: af0)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (2df0:1f1c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2e98)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3088)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:11fc)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (2df0:3a18)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (2df0: 6f8)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (2df0:3634)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (2df0:1b2c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:39b8)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:376c)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (2df0:3088)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (2df0:2e98)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (2df0:1f1c)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (2df0:25b0)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:39b8)] Request Connection: Remote Server @ 39.106.32.246:443   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (2df0:1b2c)] Request Connection: Remote Server @ 39.106.32.246:443   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (2df0:1210)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2574)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2460)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2e98)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2574)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (2df0:2840)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:1210)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (2df0:2460)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (2df0:263c)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2840)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (2df0:25b8)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:25a0)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:1d9c)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:25a0)] Request Connection: Remote Server @ 117.157.246.118:443   (Service=)  (Sid= 37)  PROXIED!
+[Network Analyzer (2df0:25b8)] Request Connection: Remote Server @ 117.157.246.118:443   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (2df0: 7d0)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:219c)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0: b74)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: 478)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2124)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0: b74)] Request Connection: Remote Server @ 13.67.52.249:443   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (2df0: 478)] Request Connection: Remote Server @ 13.67.52.249:443   (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer (2df0:3a88)] Request Connection: Remote Server @ 117.18.237.29:80   (Service=)  (Sid= 41)  PROXIED!
+[Network Analyzer (2df0:2218)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0: 87c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:1014)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Web Request      (2df0:2208)] "GET /GeoTrustCNRSACAG1.crl"   
+[Network Analyzer (2df0:2208)]   (Sid: 41) Client -> Server @ : 139 bytes (Service=HTTP)
+[Network Analyzer (2df0:1014)] Request Connection: Remote Server @ 120.253.250.230:443   (Service=)  (Sid= 42)  PROXIED!
+[Network Analyzer (2df0: 87c)] Request Connection: Remote Server @ 120.253.250.230:443   (Service=)  (Sid= 43)  PROXIED!
+[Network Analyzer (2df0:2d58)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2a28)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:1050)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:198c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3488)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:1050)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 44)  PROXIED!
+[Network Analyzer (2df0:2d58)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 45)  PROXIED!
+[Network Analyzer (2df0:198c)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 46)  PROXIED!
+[Network Analyzer (2df0:2a28)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 47)  PROXIED!
+[Network Analyzer (2df0: a54)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:1944)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:374c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: 250)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: 468)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2a3c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: d58)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:1944)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 48)  PROXIED!
+[Network Analyzer (2df0:374c)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 49)  PROXIED!
+[Network Analyzer (2df0: 468)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 50)  PROXIED!
+[Network Analyzer (2df0:2884)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0: d58)] Request Connection: Remote Server @ 120.232.186.143:443   (Service=)  (Sid= 51)  PROXIED!
+[Network Analyzer (2df0:2a3c)] Request Connection: Remote Server @ 120.232.186.143:443   (Service=)  (Sid= 52)  PROXIED!
+[Network Analyzer (2df0: 250)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid= 53)  PROXIED!
+[Network Analyzer (2df0:31f8)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:23d4)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2cd4)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3688)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: b98)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2b68)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:1c9c)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2cd4)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 54)  PROXIED!
+[Network Analyzer (2df0:3688)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 55)  PROXIED!
+[Network Analyzer (2df0: b98)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 56)  PROXIED!
+[Network Analyzer (2df0:2b68)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 57)  PROXIED!
+[Network Analyzer (2df0: 280)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2d44)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:3324)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: ffc)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:1958)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3324)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 58)  PROXIED!
+[Network Analyzer (2df0:1958)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 59)  PROXIED!
+[Network Analyzer (2df0:32dc)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (2df0:2208)] "GET /MFEwTzBNMEswSTAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEAecUv0MS5nGyVVixV8Ea30%3D"   
+[Network Analyzer (2df0:2208)]   (Sid:  6) Client -> Server @ : 231 bytes (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  6) Server -> Client : 1089 bytes  (Service=HTTP)
+[Web Request      (2df0:2208)] "GET /MFEwTzBNMEswSTAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEAecUv0MS5nGyVVixV8Ea30%3D"   
+[Network Analyzer (2df0:382c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:1e48)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2208)]   (Sid:  6) Client -> Server @ : 274 bytes (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:  6) Server -> Client : 1089 bytes  (Service=HTTP)
+[Network Analyzer (2df0:1c44)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2cbc)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2f0c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:388c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Net An. Error    (2df0:32dc)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:3324)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2208)]   (Sid: 31) Connection Terminated (by Client)
+[Network Analyzer (2df0:382c)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 60)  PROXIED!
+[Network Analyzer (2df0:1e48)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 61)  PROXIED!
+[Network Analyzer (2df0:3a2c)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2df0:2cbc)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 62)  PROXIED!
+[Network Analyzer (2df0:1c44)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 63)  PROXIED!
+[Network Analyzer (2df0:2f0c)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 64)  PROXIED!
+[Network Analyzer (2df0:388c)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 65)  PROXIED!
+[Net An. Error    (2df0:3a2c)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2208)]   (Sid: 32) Connection Terminated (by Client)
+[Network Analyzer (2df0:3324)] Request Connection: Remote Server @ 39.106.32.246:443   (Service=)  (Sid= 66)  PROXIED!
+[Network Analyzer (2df0:3988)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0: dfc)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:1844)]   (Sid: 35) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:33ac)]   (Sid: 36) SSL handshake with remote server Failed!
+[Network Analyzer (2df0:2894)]   (Sid: 37) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:3aa8)]   (Sid: 38) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2cdc)]   (Sid: 39) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2df0:1958)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:1958)] Request Connection: Remote Server @ 204.79.197.203:80   (Service=)  (Sid= 67)  PROXIED!
+[Network Analyzer (2df0:394c)]   (Sid: 40) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2df0: 418)]   (Sid: 42) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2170)]   (Sid: 43) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2dac)]   (Sid: 44) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2108)]   (Sid: 45) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:3a40)]   (Sid: 46) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0: ab4)]   (Sid: 47) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0: ee4)]   (Sid: 48) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Web Request      (2df0:2208)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEzMADi2AkRtvQUCD3VUAAAAOLYA%3D"   
+[Network Analyzer (2df0:2208)]   (Sid: 67) Client -> Server @ : 247 bytes (Service=HTTP)
+[Network Analyzer (2df0:1048)]   (Sid: 49) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:32c0)]   (Sid: 50) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2208)]   (Sid: 67) Server -> Client : 465 bytes  (Service=HTTP)
+[Web Request      (2df0:2208)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEzMADi2AkRtvQUCD3VUAAAAOLYA%3D"   
+[Network Analyzer (2df0:2208)]   (Sid: 67) Client -> Server @ : 290 bytes (Service=HTTP)
+[Network Analyzer (2df0:3940)]   (Sid: 51) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2208)]   (Sid: 67) Server -> Client : 464 bytes  (Service=HTTP)
+[Network Analyzer (2df0:1c38)]   (Sid: 52) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:2964)]   (Sid: 53) SSL handshake with remote server Failed!
+[Network Analyzer (2df0:1b10)]   (Sid: 54) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0: 414)]   (Sid: 55) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0: 9f8)]   (Sid: 56) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2b90)]   (Sid: 57) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2230)]   (Sid: 58) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2d4c)]   (Sid: 59) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:24fc)]   (Sid: 60) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:1598)]   (Sid: 61) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:299c)]   (Sid: 62) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:1f28)]   (Sid: 63) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0: 8dc)]   (Sid: 64) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0: f44)]   (Sid: 65) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2f74)]   (Sid: 66) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2df0:2f74)]   (Sid: 66) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2208)]   (Sid: 66) Connection Terminated (by Client)
+[User action                 ] Pausing...  [Net An. Error    (2df0:2218)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0: a54)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:1d9c)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:263c)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:31f8)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:2884)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:3488)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0: 7d0)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:1844)]   (Sid: 35) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0: 280)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:3988)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:23d4)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0: ab4)]   (Sid: 47) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0: ee4)]   (Sid: 48) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:1f28)]   (Sid: 63) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:2108)]   (Sid: 45) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:1c38)]   (Sid: 52) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0: f44)]   (Sid: 65) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0: dfc)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0: ffc)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0: 9f8)]   (Sid: 56) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:1b10)]   (Sid: 54) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:2d44)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:3940)]   (Sid: 51) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:2230)]   (Sid: 58) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0: 414)]   (Sid: 55) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0: 8dc)]   (Sid: 64) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:32c0)]   (Sid: 50) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:2d4c)]   (Sid: 59) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:24fc)]   (Sid: 60) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:2dac)]   (Sid: 44) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:1598)]   (Sid: 61) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:299c)]   (Sid: 62) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:3a40)]   (Sid: 46) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:1048)]   (Sid: 49) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:2b90)]   (Sid: 57) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:1c9c)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:25b0)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:2124)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:219c)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:1b2c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:1e48)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:33f4)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: 6f8)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:376c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:11fc)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3634)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3700)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: b74)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: af0)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:19d4)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:1944)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2ec0)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2208)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 29) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 30) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 33) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 34) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 35) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 44) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 45) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 46) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 47) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 48) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 49) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 50) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 51) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 52) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 54) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 55) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 56) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 57) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 58) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 59) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 60) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 61) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 62) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 63) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 64) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 65) Connection Terminated (by Client)
+[Network Analyzer (2df0:33f4)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 73)  PROXIED!
+[Network Analyzer (2df0:33c0)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:1210)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: d58)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: 478)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:39b8)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:1b2c)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 74)  PROXIED!
+[Network Analyzer (2df0:1e48)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 75)  PROXIED!
+[Network Analyzer (2df0:11fc)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 76)  PROXIED!
+[Network Analyzer (2df0:376c)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 77)  PROXIED!
+[Network Analyzer (2df0:198c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3700)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 78)  PROXIED!
+[Network Analyzer (2df0: b74)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 79)  PROXIED!
+[Network Analyzer (2df0:1944)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 80)  PROXIED!
+[Network Analyzer (2df0:19d4)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 81)  PROXIED!
+[Network Analyzer (2df0:2ec0)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 82)  PROXIED!
+[Network Analyzer (2df0: af0)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 83)  PROXIED!
+[Network Analyzer (2df0:1210)] Request Connection: Remote Server @ 183.220.151.49:443   (Service=)  (Sid= 84)  PROXIED!
+[Network Analyzer (2df0:2d58)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: 6f8)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 85)  PROXIED!
+[Network Analyzer (2df0:3634)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 86)  PROXIED!
+[Network Analyzer (2df0: d58)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 87)  PROXIED!
+[Network Analyzer (2df0:39b8)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 88)  PROXIED!
+[Network Analyzer (2df0:33c0)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 89)  PROXIED!
+[Network Analyzer (2df0: 478)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 90)  PROXIED!
+[Network Analyzer (2df0:198c)] Request Connection: Remote Server @ 120.232.186.143:443   (Service=)  (Sid= 91)  PROXIED!
+[Network Analyzer (2df0:2d58)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 92)  PROXIED!
+[Network Analyzer (2df0:32d4)]   (Sid: 73) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:32d4)]   (Sid: 73) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:198c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2208)]   (Sid: 73) Connection Terminated (by Client)
+[Network Analyzer (2df0:198c)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 93)  PROXIED!
+[Network Analyzer (2df0:  f8)]   (Sid: 74) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:  f8)]   (Sid: 74) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:1798)]   (Sid: 75) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2208)]   (Sid: 69) Server -> Client : 8640 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 74) Connection Terminated (by Client)
+[Net An. Error    (2df0:1798)]   (Sid: 75) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2d58)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:198c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:33c0)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: d58)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:39b8)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2208)]   (Sid: 75) Connection Terminated (by Client)
+[Network Analyzer (2df0:2d58)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 94)  PROXIED!
+[Network Analyzer (2df0: 478)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:198c)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 95)  PROXIED!
+[Network Analyzer (2df0:2454)]   (Sid: 76) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:33c0)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 96)  PROXIED!
+[Network Analyzer (2df0: d58)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 97)  PROXIED!
+[Net An. Error    (2df0:2454)]   (Sid: 76) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2208)]   (Sid: 76) Connection Terminated (by Client)
+[Network Analyzer (2df0:39b8)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid= 98)  PROXIED!
+[Network Analyzer (2df0: 478)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid= 99)  PROXIED!
+[Network Analyzer (2df0:1a24)]   (Sid: 77) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:1a24)]   (Sid: 77) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0: d58)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2208)]   (Sid: 77) Connection Terminated (by Client)
+[Network Analyzer (2df0: d58)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid=100)  PROXIED!
+[Network Analyzer (2df0: 508)]   (Sid: 78) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0: 508)]   (Sid: 78) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:32f4)]   (Sid: 79) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:32f4)]   (Sid: 79) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:23fc)]   (Sid: 80) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:23fc)]   (Sid: 80) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2d58)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3634)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3a1c)]   (Sid: 81) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:3a1c)]   (Sid: 81) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2208)]   (Sid: 78) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 79) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 80) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 81) Connection Terminated (by Client)
+[Network Analyzer (2df0:2d58)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid=101)  PROXIED!
+[Network Analyzer (2df0:3634)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid=102)  PROXIED!
+[Network Analyzer (2df0: d58)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: d58)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid=103)  PROXIED!
+[Network Analyzer (2df0: 68c)]   (Sid: 82) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0: 68c)]   (Sid: 82) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0: d58)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3634)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2208)]   (Sid: 82) Connection Terminated (by Client)
+[Network Analyzer (2df0: d58)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid=104)  PROXIED!
+[Network Analyzer (2df0:2d90)]   (Sid: 83) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:3634)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid=105)  PROXIED!
+[Net An. Error    (2df0:2d90)]   (Sid: 83) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:24a8)]   (Sid: 84) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:3634)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:24a8)]   (Sid: 84) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:AES256-GCM-SHA384)
+[Network Analyzer (2df0:2208)]   (Sid: 83) Connection Terminated (by Client)
+[Web Request      (2df0:2208)] "GET /js/ds.js"   
+[Network Analyzer (2df0:2208)]   (Sid: 84) Client -> Server @ : 348 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2df0:3634)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid=106)  PROXIED!
+[Network Analyzer (2df0:2208)]   (Sid: 84) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 84) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid: 84) Server -> Client : 99 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2df0:2eb4)]   (Sid: 85) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:2eb4)]   (Sid: 85) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:1e14)]   (Sid: 86) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:1e14)]   (Sid: 86) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:3634)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: d58)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: 898)]   (Sid: 87) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2208)]   (Sid: 85) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 86) Connection Terminated (by Client)
+[Network Analyzer (2df0: d58)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid=107)  PROXIED!
+[Net An. Error    (2df0: 898)]   (Sid: 87) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2208)]   (Sid: 87) Connection Terminated (by Client)
+[Network Analyzer (2df0:3634)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid=108)  PROXIED!
+[Network Analyzer (2df0:19c8)]   (Sid: 88) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:19c8)]   (Sid: 88) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2d58)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0: d58)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:31bc)]   (Sid: 89) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2208)]   (Sid: 88) Connection Terminated (by Client)
+[Network Analyzer (2df0:2d58)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid=109)  PROXIED!
+[Network Analyzer (2df0: d58)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid=110)  PROXIED!
+[Network Analyzer (2df0:3634)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Net An. Error    (2df0:31bc)]   (Sid: 89) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2208)]   (Sid: 89) Connection Terminated (by Client)
+[Network Analyzer (2df0:3634)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid=111)  PROXIED!
+[Network Analyzer (2df0:16d0)]   (Sid: 90) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:16d0)]   (Sid: 90) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:23ac)]   (Sid: 91) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:23ac)]   (Sid: 91) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:198c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3634)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:38a8)]   (Sid: 92) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2208)]   (Sid: 90) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 91) Connection Terminated (by Client)
+[Network Analyzer (2df0:198c)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid=112)  PROXIED!
+[Network Analyzer (2df0:3634)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid=113)  PROXIED!
+[Net An. Error    (2df0:38a8)]   (Sid: 92) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:3634)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2208)]   (Sid: 92) Connection Terminated (by Client)
+[Network Analyzer (2df0:3634)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid=114)  PROXIED!
+[Net An. Error    (2df0: 418)]   (Sid: 42) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2df0:2170)]   (Sid: 43) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2cd4)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2338)]   (Sid: 93) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:2338)]   (Sid: 93) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2208)]   (Sid: 42) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 43) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 93) Connection Terminated (by Client)
+[Network Analyzer (2df0:2cd4)] Request Connection: Remote Server @ 120.253.250.230:443   (Service=)  (Sid=115)  PROXIED!
+[Network Analyzer (2df0:1d84)]   (Sid: 94) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:1d84)]   (Sid: 94) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2674)]   (Sid: 95) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:2674)]   (Sid: 95) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:38d0)]   (Sid: 96) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:38d0)]   (Sid: 96) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:3634)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2cd4)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:382c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2208)]   (Sid: 94) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 95) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 96) Connection Terminated (by Client)
+[Network Analyzer (2df0:3634)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid=116)  PROXIED!
+[Network Analyzer (2df0:1450)]   (Sid: 97) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2cd4)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid=117)  PROXIED!
+[Network Analyzer (2df0:382c)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid=118)  PROXIED!
+[Net An. Error    (2df0:1450)]   (Sid: 97) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2b08)]   (Sid: 98) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:2b08)]   (Sid: 98) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:3134)]   (Sid: 99) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:3134)]   (Sid: 99) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:3634)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2208)]   (Sid: 97) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 98) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid: 99) Connection Terminated (by Client)
+[Network Analyzer (2df0:3634)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid=119)  PROXIED!
+[Network Analyzer (2df0:3b80)]   (Sid:100) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:3b80)]   (Sid:100) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:29d8)]   (Sid:101) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:29d8)]   (Sid:101) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2cd4)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:382c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2208)]   (Sid:100) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid:101) Connection Terminated (by Client)
+[Network Analyzer (2df0:2cd4)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid=120)  PROXIED!
+[Network Analyzer (2df0:382c)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid=121)  PROXIED!
+[Network Analyzer (2df0: b64)]   (Sid:102) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0: b64)]   (Sid:102) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:23a8)]   (Sid:103) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:23a8)]   (Sid:103) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0: bb8)]   (Sid:104) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0: bb8)]   (Sid:104) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0: c54)]   (Sid:105) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0: c54)]   (Sid:105) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2a90)]   (Sid:106) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:2a90)]   (Sid:106) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:3660)]   (Sid:107) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:3660)]   (Sid:107) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2290)]   (Sid:108) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0:2290)]   (Sid:108) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0: fc4)]   (Sid:109) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:2574)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Net An. Error    (2df0: fc4)]   (Sid:109) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2208)]   (Sid:102) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid:103) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid:104) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid:105) Connection Terminated (by Client)
+[Network Analyzer (2df0:3120)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:2208)]   (Sid:106) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid:107) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid:108) Connection Terminated (by Client)
+[Network Analyzer (2df0:2208)]   (Sid:109) Connection Terminated (by Client)
+[Network Analyzer (2df0:2574)] Request Connection: Remote Server @ 117.187.142.229:80   (Service=)  (Sid=122)  PROXIED!
+[Web Request      (2df0:2208)] "GET /gsorganizationvalsha2g2/ME0wSzBJMEcwRTAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCDHJYeDZun1boHUGISA%3D%3D"   
+[Network Analyzer (2df0:2208)]   (Sid:122) Client -> Server @ : 259 bytes (Service=HTTP)
+[Network Analyzer (2df0: d58)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:198c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:382c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3120)] Request Connection: Remote Server @ 112.19.0.208:80   (Service=)  (Sid=123)  PROXIED!
+[Network Analyzer (2df0:2cd4)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:3508)]   (Sid:110) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Web Request      (2df0:2208)] "GET /gs/gsorganizationvalsha2g2.crl"   
+[Network Analyzer (2df0:2208)]   (Sid:123) Client -> Server @ : 149 bytes (Service=HTTP)
+[Network Analyzer (2df0: d58)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid=124)  PROXIED!
+[Network Analyzer (2df0:382c)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid=125)  PROXIED!
+[Network Analyzer (2df0:198c)] Request Connection: Remote Server @ 120.232.186.141:443   (Service=)  (Sid=126)  PROXIED!
+[Network Analyzer (2df0:2208)]   (Sid:123) Server -> Client : 4386 bytes  (Service=HTTP)
+[Net An. Error    (2df0:3508)]   (Sid:110) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2208)]   (Sid:123) Server -> Client : 3665 bytes  (Service=HTTP)
+[Network Analyzer (2df0:2208)]   (Sid:110) Connection Terminated (by Client)
+[Network Analyzer (2df0:2cd4)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid=127)  PROXIED!
+[Network Analyzer (2df0:1cf8)]   (Sid:111) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2df0:3120)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Network Analyzer (2df0:382c)] Address lookup for LAPTOP-7MJM20G5 = 192.168.0.107
+[Net An. Error    (2df0:1cf8)]   (Sid:111) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2df0:2208)]   (Sid:111) Connection Terminated (by Client)
+[Network Analyzer (2df0:3120)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid=128)  PROXIED!
+[Network Analyzer (2df0:382c)] Request Connection: Remote Server @ 120.232.186.139:443   (Service=)  (Sid=129)  PROXIED!
+[Network Analyzer (2df0: e04)]   (Sid:112) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2df0: e04)]   (Sid:112) Negotiate Client -> Proxy SSL Handshake Failed!!!

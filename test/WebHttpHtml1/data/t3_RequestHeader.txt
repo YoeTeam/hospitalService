@@ -1,0 +1,9 @@
+GET /l1.dat?v=3&cv=9.11.19041.0&os=10.0.19042.0.0&pg=4A72F430-B40C-4D36-A068-CE33ADA5ADF9 HTTP/1.1
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Host: c.urs.microsoft.com
+Connection: Keep-Alive
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+Cookie: MUID=2A4DDDD6BAFD616D31BCCDF2BB3D60DC; _EDGE_S=F=1&SID=31D39A3B07A56E1219998A1F06656F7F; _EDGE_V=1
+

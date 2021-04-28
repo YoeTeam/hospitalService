@@ -1,0 +1,1427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchProviderUpgradeList>
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <DisplayName>@ieframe.dll,-12512</DisplayName>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;src={referrer:source?}</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;Form=IE8SRC&amp;src={referrer:source}</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;mkt={Language}&amp;FORM=IE8SRC&amp;src={referrer:source?}</URL>
+      <URL>http://livesearch.msn.co.kr/</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=AS5</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=AS6</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=CBPW</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=IE7RE&amp;src={referrer:source?}</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=IE7BOX&amp;src={referrer:source?}</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=MSNIE7&amp;src={referrer:source?}</URL>
+      <URL>http://search.msn.com/results.aspx?q={searchTerms}&amp;FORM=AS5</URL>
+      <URL>http://search.msn.com/results.aspx?q={searchTerms}&amp;FORM=AS6</URL>
+      <URL>http://search.msn.com/results.aspx?q={searchTerms}&amp;FORM=CBPW</URL>
+      <URL>http://search.msn.co.jp/results.aspx?q={searchTerms}&amp;FORM=AS5</URL>
+      <URL>http://search.msn.co.uk/results.aspx?q={searchTerms}&amp;FORM=AS5</URL>
+      <URL>http://search.msn.co.uk/results.aspx?q={searchTerms}&amp;FORM=AS6</URL>
+      <URL>http://search.msn.co.jp/results.aspx?q={searchTerms}&amp;FORM=AS6</URL>
+      <URL>http://search.msn.co.jp/results.aspx?q={searchTerms}&amp;FORM=CBPW</URL>
+      <URL>http://search.msn.co.uk/results.aspx?q={searchTerms}&amp;FORM=CBPW</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;src={referrer:source?}&amp;Form=IE8SRC</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;src=IE-SearchBox&amp;Form=IE8SRC</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;FORM=IE8SRC</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE8SRC</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE8SRC</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02</URL>
+    </OldValues>
+    <NewValues>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>      
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;Form=DLCDF7&amp;pc=MDDC&amp;src={referrer:source?}</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;Form=DLCDF7&amp;pc=MDDC&amp;src=IE-SearchBox</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;FORM=DLCDF7&amp;pc=MDDC&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=MDDC</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MDDC</URL>
+    </OldValues>
+    <NewValues>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MDDC</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>      
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=MDDC&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=MDDC</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=MDDC</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=MDDC</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=MDDC</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;Form=DLSDF7&amp;pc=MDDS&amp;src={referrer:source?}</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;Form=DLSDF7&amp;pc=MDDS&amp;src=IE-SearchBox</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;FORM=DLSDF7&amp;pc=MDDS&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=MDDS</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MDDS</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MDDS</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>      
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=MDDS&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=MDDS</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=MDDS</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=MDDS</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=MDDS</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>
+    </NewValues>
+  </Provider>  
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;Form=DLRDF7&amp;pc=MDDR&amp;src={referrer:source?}</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;Form=DLRDF7&amp;pc=MDDR&amp;src=IE-SearchBox</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;FORM=DLRDF7&amp;pc=MDDR&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=MDDR</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MDDR</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MDDR</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>      
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=MDDR&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=MDDR</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=MDDR</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=MDDR</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=MDDR</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=HPDTDF</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=HPDTDF&amp;src=IE-SearchBox</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;FORM=HPDTDF&amp;pc=HPDTDF&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=HPDTDF</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=HPDTDF</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=HPDTDF</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>      
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=HPDTDF&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=HPDTDF</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=HPDTDF</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=HPDTDF</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=HPDTDF</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=HPNTDF</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=HPNTDF&amp;src=IE-SearchBox</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;FORM=HPNTDF&amp;pc=HPNTDF&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=HPNTDF</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=HPNTDF</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=HPNTDF</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>      
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=HPNTDF&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=HPNTDF</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=HPNTDF</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=HPNTDF</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=HPNTDF</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=CPNTDF</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;FORM=CPNTDF&amp;pc=CPNTDF&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=CPNTDF</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=CPNTDF</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=CPNTDF</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>      
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=CPNTDF&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=CPNTDF</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=CPNTDF</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=CPNTDF</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=CPNTDF</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=CPDTDF</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=CPDTDF</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=CPDTDF</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>      
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=CPDTDF&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=CPDTDF</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=CPDTDF</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=CPDTDF</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=CPDTDF</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>
+    </NewValues>
+  </Provider>  
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?FORM=SOLTDF&amp;q={searchTerms}&amp;src={referrer:source}</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=SOLTDF&amp;src={referrer:source}</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=SOLTDF</URL>
+      <URL>http://search.live.com/results.aspx?FORM=SOLTDF&amp;q={searchTerms}&amp;src=IE-SearchBox</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;FORM=SOLTDF&amp;pc=SOLTDF&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=SOLTDF</URL>      
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=SOLTDF</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=SOLTDF</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>      
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=SOLTDF&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=SOLTDF</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=SOLTDF</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=SOLTDF</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=SOLTDF</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?FORM=SO2TDF&amp;q={searchTerms}&amp;src={referrer:source}</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=SO2TDF&amp;src={referrer:source}</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=SO2TDF</URL>
+      <URL>http://search.live.com/results.aspx?FORM=SO2TDF&amp;q={searchTerms}&amp;src=IE-SearchBox</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL> http://www.bing.com/search?q={searchTerms}&amp;FORM=SO2TDF&amp;pc=SO2TDF&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=SO2TDF</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=SO2TDF</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=SO2TDF</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=SO2TDF&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=SO2TDF</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=SO2TDF</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=SO2TDF</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=SO2TDF</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=ADDLVD&amp;src={referrer:source?}</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=ADDLVD&amp;src=IE-SearchBox</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;FORM=ADDLVD&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=ADDLVD</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=ADDLVD</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=ADDLVD</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=ADDLVD&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=ADDLVD</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=ADDLVD</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=ADDLVD</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=ADDLVD</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>
+    </NewValues>
+  </Provider>  
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;mkt=de-de&amp;FORM=IEFM&amp;src={referrer:source?}</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;mkt=de-de&amp;FORM=IEFM&amp;src=IE-SearchBox</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;mkt=de-de&amp;FORM=IEFM&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;mkt=de-de&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=IEFM</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;mkt=de-de&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=IEFM</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;mkt=de-de&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=IEFM</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=IEFM&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;mkt=de-de&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=IEFM</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=IEFM</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=IEFM</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=IEFM</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>      
+    </NewValues>
+  </Provider>  
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?FORM=IEFM1&amp;q={searchTerms}</URL>
+      <URL>http://search.live.com/results.aspx?FORM=IEFM1&amp;q={searchTerms}&amp;src=IE-SearchBox</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;FORM=IEFM1&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=IEFM1</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=IEFM1</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=IEFM1</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=IEFM1&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=IEFM1</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=IEFM1</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=IEFM1</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=IEFM1</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>      
+    </NewValues>
+  </Provider>  
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;src={referrer:source?}&amp;FORM=DETOG</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=DETOG</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=DETOG</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=DETOG</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=DETOG</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=DETOG</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=DETOG&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=DETOG</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=DETOG</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=DETOG</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=DETOG</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>      
+    </NewValues>
+  </Provider>  
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;mkt=fr-FR&amp;FORM=MIMWA1</URL>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;mkt=fr-FR&amp;FORM=MIMWA1&amp;src=IE-SearchBox</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;mkt=fr-FR&amp;FORM=MIMWA1&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;mkt=fr-FR&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=MIMWA1</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;mkt=fr-FR&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MIMWA1</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;mkt=fr-FR&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MIMWA1</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=MIMWA1&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;mkt=fr-FR&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=MIMWA1</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=MIMWA1</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=MIMWA1</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=MIMWA1</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>      
+    </NewValues>
+  </Provider>  
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://cnweb.search.live.com/results.aspx?q={SearchTerms}&amp;src=IE-SearchBox&amp;Form=IE8SRC</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://cn.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE8SRC</URL>
+      <FavoriteIcon>http://cn.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market=zh-cn</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://cn.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR</URL>
+      <URL>http://cn.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://cn.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02</URL>
+      <FavoriteIcon>http://cn.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;market=zh-cn</SuggestionsURL>
+      <TopResultURL>http://cn.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>      
+    </NewValues>
+  </Provider>  
+  <Provider>
+    <OldValues>
+      <DisplayName>Microsoft &#174; Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;form=MS8TDF&amp;pc=MS8TDF&amp;src=IE-SearchBox</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;FORM=MS8TDF&amp;pc=MS8TDF&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=MS8TDF</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MS8TDF</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MS8TDF</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=MS8TDF&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=MS8TDF</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=MS8TDF</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=MS8TDF</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=MS8TDF</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>      
+    </NewValues>
+  </Provider>  
+  <Provider>
+    <OldValues>
+      <DisplayName>Microsoft &#174; Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;form=MS8TDS&amp;pc=MS8TDS&amp;src=IE-SearchBox</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;FORM=MS8TDS&amp;pc=MS8TDS&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=MS8TDS</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MS8TDS</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MS8TDS</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=MS8TDS&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=MS8TDS</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=MS8TDS</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=MS8TDS</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=MS8TDS</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>      
+    </NewValues>
+  </Provider>  
+  <Provider>
+    <OldValues>
+      <DisplayName>Microsoft &#174; Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;form=MSNIE8&amp;pc=MSNIE8&amp;src=IE-SearchBox</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;FORM=MSNIE8&amp;pc=MSNIE8&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=MSNIE8</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MSNIE8</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MSNIE8</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=MSNIE8&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=MSNIE8</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=MSNIE8</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=MSNIE8</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=MSNIE8</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>      
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Microsoft &#174; Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;form=MS8TWF&amp;pc=MS8TWF&amp;src=IE-SearchBox</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;FORM=MS8TWF&amp;pc=MS8TWF&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=MS8TWF</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MS8TWF</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MS8TWF</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=MS8TWF&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=MS8TWF</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=MS8TWF</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=MS8TWF</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=MS8TWF</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>      
+    </NewValues>
+  </Provider>  
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=MSNTDF</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL> http://www.bing.com/search?q={searchTerms}&amp;FORM=MSNTDF&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=MSNTDF</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MSNTDF</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MSNTDF</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=MSNTDF&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=MSNTDF</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=MSNTDF</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=MSNTDF</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=MSNTDF</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=ASHTDF</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;FORM=ASHTDF&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=ASHTDF</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=ASHTDF</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=ASHTDF</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=ASHTDF&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=ASHTDF</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=ASHTDF</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=ASHTDF</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=ASHTDF</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>      
+    </NewValues>
+  </Provider>  
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;FORM=MSDTDF</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;FORM=MSDTDF&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=MSDTDF</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MSDTDF</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MSDTDF</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=MSDTDF&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=MSDTDF</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=MSDTDF</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=MSDTDF</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=MSDTDF</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>      
+    </NewValues>
+  </Provider>  
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://search.live.com/results.aspx?q={searchTerms}&amp;mkt=en-AU&amp;FORM=MICB39</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;mkt=en-AU&amp;FORM=MICB39&amp;src=IE-SearchBox</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market={language}</SuggestionsURL>
+    </NewValues>
+  </Provider>
+  <Provider>
+    <OldValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;mkt=en-AU&amp;src=IE-SearchBox&amp;FORM=IE11SR&amp;pc=MICB39</URL>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;mkt=en-AU&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MICB39</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://www.bing.com/search?q={searchTerms}&amp;mkt=en-AU&amp;src=IE-SearchBox&amp;FORM=IESR02&amp;pc=MICB39</URL>
+      <FavoriteIcon>http://www.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IESS02&amp;pc=MICB39&amp;market={language}</SuggestionsURL>
+      <TopResultURL>http://www.bing.com/search?q={searchTerms}&amp;mkt=en-AU&amp;src=IE-TopResult&amp;FORM=IETR02&amp;pc=MICB39</TopResultURL>
+      <NTURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTSR&amp;pc=MICB39</NTURL>
+      <NTTopResultURL>http://www.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IENTTR&amp;pc=MICB39</NTTopResultURL>
+      <NTSuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;market={language}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IENTSS&amp;pc=MICB39</NTSuggestionsURL>
+      <NTLogoURL>http://go.microsoft.com/fwlink/?LinkID=403856&amp;language={language}&amp;scale={scalelevel}&amp;contrast={contrast}</NTLogoURL>      
+    </NewValues>
+  </Provider>  
+  <Provider>
+    <OldValues>
+      <DisplayName>Live Search</DisplayName>
+      <URL>http://search.msn.com.cn/results.aspx?q={searchTerms}&amp;FORM=AS5</URL>
+      <URL>http://search.msn.com.cn/results.aspx?q={searchTerms}&amp;FORM=AS6</URL>
+    </OldValues>
+    <NewValues>
+      <DisplayName>Bing</DisplayName>
+      <URL>http://cn.bing.com/search?q={searchTerms}&amp;src=IE-SearchBox&amp;FORM=IE8SRC</URL>
+      <FavoriteIcon>http://cn.bing.com/favicon.ico</FavoriteIcon>
+      <SuggestionsURL>http://api.bing.com/qsml.aspx?query={searchTerms}&amp;maxwidth={ie:maxWidth}&amp;rowheight={ie:rowHeight}&amp;sectionHeight={ie:sectionHeight}&amp;FORM=IE8SSC&amp;market=zh-cn</SuggestionsURL>
+    </NewValues>
+  </Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://search.yahoo.com/search?p={searchTerms}&amp;ei=utf-8&amp;fr=b2ie7</URL>
+        <URL>http://search.yahoo.com/</URL>
+        <URL>http://search.cn.yahoo.com/</URL>
+        <URL>http://ru.search.yahoo.com</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://search.yahoo.com/search?p={searchTerms}&amp;ei=utf-8&amp;fr=ie8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://ie.search.yahoo.com/os?appid=ie8&amp;command={SearchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://search.yahoo.com/search?p={searchTerms}&amp;ei=utf-8&amp;fr=yie7</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://search.yahoo.com/search?p={searchTerms}&amp;ei=utf-8&amp;fr=yie8ms</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://ie.search.yahoo.com/os?appid=ie8&amp;command={SearchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://ie.search.yahoo.com/os?appid=ie8&amp;command={SearchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://search.yahoo.com/search?p={searchTerms}&amp;ei=utf-8&amp;fr=yie7c</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://search.yahoo.com/search?p={searchTerms}&amp;ei=utf-8&amp;fr=yie8ms</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://ie.search.yahoo.com/os?appid=ie8&amp;command={SearchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://ar.search.yahoo.com/search?ei=UTF-8&amp;fr=yie7c&amp;p={searchTerms}</URL>
+        <URL>http://ar.search.yahoo.com/</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://ar.search.yahoo.com/search?ei=UTF-8&amp;fr=yie8ms&amp;p={searchTerms}</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.ar.search.yahoo.com/os?market=ar&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://ar.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://ar.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.ar.search.yahoo.com/os?market=ar&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <DisplayName>Yahoo!7 Search</DisplayName>
+        <DisplayName>Yahoo!7</DisplayName>
+        <URL>http://au.search.yahoo.com/search?ei=UTF-8&amp;fr=yie7c&amp;p={searchTerms}</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!7</DisplayName>
+        <URL>http://au.search.yahoo.com/search?ei=UTF-8&amp;fr=yie8ms&amp;p={searchTerms}</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.au.search.yahoo.com/os?market=au&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <DisplayName>Yahoo!7 Search</DisplayName>
+        <DisplayName>Yahoo!7</DisplayName>
+        <URL>http://au.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+        <URL>http://au.search.yahoo.com/</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!7</DisplayName>
+        <URL>http://au.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.au.search.yahoo.com/os?market=au&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://br.search.yahoo.com/search?ei=UTF-8&amp;fr=yie7c&amp;p={searchTerms}</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://br.search.yahoo.com/search?ei=UTF-8&amp;fr=yie8ms&amp;p={searchTerms}</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://br.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+        <URL>http://br.search.yahoo.com/</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://br.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://ca.search.yahoo.com/search?ei=UTF-8&amp;fr=yie7c&amp;p={searchTerms}</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://ca.search.yahoo.com/search?ei=UTF-8&amp;fr=yie8ms&amp;p={searchTerms}</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.ca.search.yahoo.com/os?market=ca&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://ca.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+        <URL>http://ca.search.yahoo.com/</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://ca.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.ca.search.yahoo.com/os?market=ca&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://qc.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+        <URL>http://cf.search.yahoo.com/</URL>
+        <URL>http://qc.search.yahoo.com/</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://qc.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.qc.search.yahoo.com/os?market=qc&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://de.search.yahoo.com/search?ei=UTF-8&amp;fr=yie7c&amp;p={searchTerms}</URL>
+        <URL>http://de.search.yahoo.com/</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://de.search.yahoo.com/search?ei=UTF-8&amp;fr=yie8ms&amp;p={searchTerms}</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.de.search.yahoo.com/os?market=de&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://de.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://de.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.de.search.yahoo.com/os?market=de&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://es.search.yahoo.com/search?ei=UTF-8&amp;fr=yie7c&amp;p={searchTerms}</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://es.search.yahoo.com/search?ei=UTF-8&amp;fr=yie8ms&amp;p={searchTerms}</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.es.search.yahoo.com/os?market=es&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://es.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+        <URL>http://es.search.yahoo.com/</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://es.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.es.search.yahoo.com/os?market=es&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://espanol.search.yahoo.com/search?ei=UTF-8&amp;fr=yie7c&amp;p={searchTerms}</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://espanol.search.yahoo.com/search?ei=UTF-8&amp;fr=yie8ms&amp;p={searchTerms}</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.e1.search.yahoo.com/os?market=e1&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://espanol.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://espanol.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.e1.search.yahoo.com/os?market=e1&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://cl.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://cl.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.e1.search.yahoo.com/os?market=e1&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://co.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://co.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.e1.search.yahoo.com/os?market=e1&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://pe.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://pe.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.e1.search.yahoo.com/os?market=e1&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://ve.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+        <URL>http://espanol.search.yahoo.com/</URL>
+        <URL>http://cl.search.yahoo.com/</URL>
+        <URL>http://co.search.yahoo.com/</URL>
+        <URL>http://pe.search.yahoo.com/</URL>
+        <URL>http://ve.search.yahoo.com/</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://ve.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.e1.search.yahoo.com/os?market=e1&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://fr.search.yahoo.com/search?ei=UTF-8&amp;fr=yie7c&amp;p={searchTerms}</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://fr.search.yahoo.com/search?ei=UTF-8&amp;fr=yie8ms&amp;p={searchTerms}</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.fr.search.yahoo.com/os?market=fr&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://fr.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+        <URL>http://fr.search.yahoo.com/</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://fr.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.fr.search.yahoo.com/os?market=fr&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://hk.search.yahoo.com/search?ei=UTF-8&amp;fr=yie7c&amp;p={searchTerms}</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://hk.search.yahoo.com/search?ei=UTF-8&amp;fr=yie8ms&amp;p={searchTerms}</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.hk.search.yahoo.com/os?market=hk&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://hk.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+        <URL>http://hk.search.yahoo.com/</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://hk.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.hk.search.yahoo.com/os?market=hk&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://id.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+        <URL>http://id.search.yahoo.com/</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://id.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.id.search.yahoo.com/os?market=id&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://in.search.yahoo.com/search?ei=UTF-8&amp;fr=yie7c&amp;p={searchTerms}</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://in.search.yahoo.com/search?ei=UTF-8&amp;fr=yie8ms&amp;p={searchTerms}</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.in.search.yahoo.com/os?market=in&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://in.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://in.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.in.search.yahoo.com/os?market=in&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://it.search.yahoo.com/search?ei=UTF-8&amp;fr=yie7c&amp;p={searchTerms}</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://it.search.yahoo.com/search?ei=UTF-8&amp;fr=yie8ms&amp;p={searchTerms}</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.it.search.yahoo.com/os?market=it&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://it.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://it.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.it.search.yahoo.com/os?market=it&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://kr.search.yahoo.com/search?ei=UTF-8&amp;fr=yie7c&amp;p={searchTerms}</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://kr.search.yahoo.com/ei=UTF-8&amp;fr=yie8ms&amp;p={searchTerms}</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>        
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://kr.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+        <URL>http://kr.search.yahoo.com/</URL>
+        <URL>http://kr.searchcenter.yahoo.com/</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://kr.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>        
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://mx.search.yahoo.com/search?ei=UTF-8&amp;fr=yie7c&amp;p={searchTerms}</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://mx.search.yahoo.com/search?ei=UTF-8&amp;fr=yie8ms&amp;p={searchTerms}</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.mx.search.yahoo.com/os?market=mx&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://mx.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://mx.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.mx.search.yahoo.com/os?market=mx&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://malaysia.search.yahoo.com/search?ei=UTF-8&amp;fr=yie7c&amp;p={searchTerms}</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://malaysia.search.yahoo.com/search?ei=UTF-8&amp;fr=yie8ms&amp;p={searchTerms}</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.my.search.yahoo.com/os?market=my&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://malaysia.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://malaysia.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.my.search.yahoo.com/os?market=my&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <DisplayName>Yahoo!Xtra Search</DisplayName>
+        <DisplayName>Yahoo!Xtra</DisplayName>
+        <URL>http://nz.search.yahoo.com/</URL>
+        <URL>http://nz.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!Xtra</DisplayName>
+        <URL>http://nz.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.nz.search.yahoo.com/os?market=nz&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://ph.search.yahoo.com/search?ei=UTF-8&amp;fr=yie7c&amp;p={searchTerms}</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://ph.search.yahoo.com/search?ei=UTF-8&amp;fr=yie8ms&amp;p={searchTerms}</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.ph.search.yahoo.com/os?market=ph&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://ph.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://ph.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.ph.search.yahoo.com/os?market=ph&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://sg.search.yahoo.com/search?ei=UTF-8&amp;fr=yie7c&amp;p={searchTerms}</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://sg.search.yahoo.com/search?ei=UTF-8&amp;fr=yie8ms&amp;p={searchTerms}</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.sg.search.yahoo.com/os?market=sg&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://sg.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://sg.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.sg.search.yahoo.com/os?market=sg&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://th.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://th.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.th.search.yahoo.com/os?market=th&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://tw.search.yahoo.com/search?ei=UTF-8&amp;fr=yie7c&amp;p={searchTerms}</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://tw.search.yahoo.com/search?ei=UTF-8&amp;fr=yie8ms&amp;p={searchTerms}</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.tw.search.yahoo.com/os?market=tw&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://tw.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://tw.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.tw.search.yahoo.com/os?market=tw&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider>
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://uk.search.yahoo.com/search?ei=UTF-8&amp;fr=yie7c&amp;p={searchTerms}</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://uk.search.yahoo.com/search?ei=UTF-8&amp;fr=yie8ms&amp;p={searchTerms}</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.uk.search.yahoo.com/os?market=uk&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://uk.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://uk.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.uk.search.yahoo.com/os?market=uk&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+<Provider allowNearMatchUpgrade="true">
+    <OldValues>
+        <DisplayName>Yahoo! Search</DisplayName>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://vn.search.yahoo.com/search?p={searchTerms}&amp;type=</URL>
+    </OldValues>
+    <NewValues>
+        <DisplayName>Yahoo!</DisplayName>
+        <URL>http://vn.search.yahoo.com/search?p={searchTerms}&amp;fr=chr-tyc8</URL>
+        <FavoriteIcon>http://search.yahoo.com/favicon.ico</FavoriteIcon>
+        <SuggestionsURL>http://sugg-ie.vn.search.yahoo.com/os?market=vn&amp;appid=ie8&amp;command={searchTerms}</SuggestionsURL>
+    </NewValues>
+</Provider>
+</SearchProviderUpgradeList>

@@ -1,0 +1,11 @@
+[t3]
+FileName1=t3_l1.html
+URL1=https://c.urs.microsoft.com/l1.dat?v=3&cv=9.11.19041.0&os=10.0.19042.0.0&pg=4A72F430-B40C-4D36-A068-CE33ADA5ADF9
+Total=1
+ContentType=application/octet-stream
+SnapshotXmlFile=snapshot_3.xml
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
